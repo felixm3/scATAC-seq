@@ -1,4 +1,4 @@
-# scATAC-seq: Comparing chromatin accessibility in hematopoietic stem cells (HSCs) in young vs aged mice
+# scATAC-seq: Comparing chromatin accessibility in hematopoietic stem cells (HSCs) of young vs aged mice
 
 I wrote this R/Bioconductor script analysis pipeline for single-cell ATAC-seq (scATAC-seq) data looking at differential accessibility in hematopoietic stem cells (HSCs) from 10-week-old 'young' mice vs 20-month-old 'aged' mice. [The data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162662) is from the NCBI Gene Expression Omnibus (GEO) repository.
 
