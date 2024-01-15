@@ -5,10 +5,10 @@ I wrote this R/Bioconductor script analysis pipeline for single-cell ATAC-seq (s
 - read alignment
 - barcode counting
 - peak calling with reference “refdata-cellranger-arc-mm10-2020-A-2.0.0”, 
-- output BED file of peaks, CSV file with cell barcodes metadata, TSV/BED file of each unique fragment and associated cell barcode, etc
+- outputs: BED file of peaks, CSV file with cell barcodes metadata, TSV/BED file of each unique fragment and associated cell barcode, etc
 
 ### Overall Functionality:
-1. **Data Loading and Preprocessing**: It loads necessary R packages (Signac, Seurat, tidyverse, etc.) and reads in peak files, metadata, and fragment files for young and aged single-cell ATAC-seq datasets.
+1. **Data Loading and Preprocessing**: It loads necessary R packages (Signac, Seurat, tidyverse, etc.) and reads in BED peak files, CSV cell barcodes metadata, and TSV/BED fragment files for young and aged single-cell ATAC-seq datasets.
 2. **Peak Filtering and Common Set Creation**: It identifies a common set of peaks by reducing peaks from individual datasets and filters out peaks based on width criteria.
 3. **Initial Quality Control**: Filters out low-quality cells based on specific cutoffs for various quality control metrics.
 4. **Count Matrix Generation**: Generates count matrices for both young and aged datasets based on the common peak set.
